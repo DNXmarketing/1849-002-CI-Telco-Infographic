@@ -27,14 +27,12 @@ $deep-blue: #003B4D;
 }
 
 body {
-	background: #dadee0;
+	background: #fff;
 	color: $dark-gray;
 	font-family: Arial, Helvetica, sans-serif;
-	&body {
-		font-size: 12px;
-		line-height: 1.7;
-		font-weight:100;
-	}
+	font-size: 13px;
+	line-height: 1.7;
+	font-weight:100;
 }
 
 .container {
@@ -59,9 +57,12 @@ h1 {
 	color: $wine;
 }
 
-h2 {
-	font-size: 22px;
-	color: $wine;
+section h1 {
+	 font-size: 22px;
+}
+
+h2.sub-heading {
+	font-size: 28px;
 }
 
 h3 {
@@ -84,10 +85,6 @@ strong {
 
 .button {
 	font-size: 16px;
-}
-
-.sub-heading {
-	font-size: 18px;
 }
 
 /**
@@ -135,17 +132,22 @@ strong {
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 991px) {
-	p {
+	body {
 		font-size: 17px;
 	}
 
 	h1 {
 		font-size: 44px;
 	}
+	
+	section h1 {
+	 font-size: 22px;
+	}
 
 	h2 {
 		font-size: 29px;
 	}
+	
 	h3 {
 	font-size: 22px;
 	}
@@ -156,10 +158,6 @@ strong {
 
 	h5 {
 		font-size: 15px;
-	}
-	
-	.sub-heading {
-		font-size: 29px;
 	}
 }
 
