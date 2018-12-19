@@ -1,0 +1,121 @@
+/**
+*
+* VARIABLES
+*
+**/
+/**
+*
+* GENERAL 
+*
+**/
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1; }
+
+body {
+  background: #dadee0;
+  color: #4E5052;
+  font-family: Arial, Helvetica, sans-serif; }
+  bodybody {
+    font-size: 12px;
+    line-height: 1.7;
+    font-weight: 100; }
+
+.container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px; }
+
+p {
+  font-size: 13px; }
+
+h1 {
+  font-size: 30px;
+  color: #942645; }
+
+h2 {
+  font-size: 22px;
+  color: #942645; }
+
+h3 {
+  font-size: 19px; }
+
+h4 {
+  font-size: 14px;
+  color: #942645; }
+
+h5 {
+  font-size: 13px;
+  color: #942645; }
+
+strong {
+  font-weight: bold; }
+
+.button {
+  font-size: 16px; }
+
+.sub-heading {
+  font-size: 18px; }
+
+/**
+*
+* COLORS 
+*
+**/
+.primary-color {
+  color: #942645; }
+
+.secondary-color {
+  color: #00758F; }
+
+.medium-gray {
+  color: #DEE0E0; }
+
+.dark-gray {
+  color: #4E5052; }
+
+.light-blue {
+  color: #DEE0E0; }
+
+.deep-blue {
+  color: #003B4D; }
+
+/**
+*
+* MEDIA QUERIES 
+*
+**/
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 991px) {
+  p {
+    font-size: 17px; }
+
+  h1 {
+    font-size: 44px; }
+
+  h2 {
+    font-size: 29px; }
+
+  h3 {
+    font-size: 22px; }
+
+  h4 {
+    font-size: 17px; }
+
+  h5 {
+    font-size: 15px; }
+
+  .sub-heading {
+    font-size: 29px; } }
+/* Large Devices, Wide Screens */
+
+/*# sourceMappingURL=style.css.map */
