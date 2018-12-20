@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 200">
+    <g id="Animation8">
+      <rect width="450" height="200" style="fill: none"/>
+      <g id="an8server">
+        <g>
+          <g>
+            <g>
+              <polygon points="360.57 121.97 344 128.26 344 175.7 360.57 177.78 360.57 121.97" style="fill: #dee0e0"/>
+              <path d="M360.57,122,344,128.26V175.7l16.57,2.08,11.34-2.09V128.25Zm0,53.49-14.83-1.55v-44.3l14.83-5.32Z" style="fill: #b9bbbd"/>
+              <g>
+                <polygon points="346.88 168.65 358.6 169.23 358.6 167.57 346.88 167.17 346.88 168.65" style="fill: #939699"/>
+                <polygon points="346.88 143.46 358.6 140.99 358.6 139.33 346.88 141.98 346.88 143.46" style="fill: #939699"/>
+                <polygon points="346.88 161.25 358.6 160.92 358.6 159.26 346.88 159.76 346.88 161.25" style="fill: #939699"/>
+              </g>
+              <g>
+                <polygon id="nothing" points="353.69 135.71 350.4 136.47 350.4 131.87 353.69 130.82 353.69 135.71" style="fill: #b9bbbd"/>
+                <polygon class="an8light2" points="353.69 135.71 350.4 136.47 350.4 131.87 353.69 130.82 353.69 135.71" style="fill: #f80000"/>
+                <g>
+                  <polygon points="349.13 133.89 346.88 134.57 346.88 136.06 349.13 135.41 349.13 133.89" style="fill: #939699"/>
+                  <polygon points="354.96 132.13 354.96 133.73 358.6 132.68 358.6 131.02 354.96 132.13" style="fill: #939699"/>
+                </g>
+              </g>
+            </g>
+            <polygon points="346.88 153.84 358.6 152.62 358.6 147.63 346.88 149.39 346.88 153.84" style="fill: #fff"/>
+          </g>
+          <g>
+            <g>
+              <polygon points="423.68 111.69 402.75 119.63 402.75 179.56 423.68 182.19 423.68 111.69" style="fill: #dee0e0"/>
+              <path d="M423.68,111.69l-20.93,7.94v59.93l20.93,2.63L438,179.54V119.62Zm0,67.56-18.73-2V121.34l18.73-6.72Z" style="fill: #b9bbbd"/>
+              <g>
+                <polygon points="406.39 127.61 406.39 129.48 421.2 125.22 421.2 123.12 406.39 127.61" style="fill: #939699"/>
+                <polygon points="406.39 170.66 421.2 171.38 421.2 169.29 406.39 168.79 406.39 170.66" style="fill: #939699"/>
+                <polygon points="406.39 138.84 421.2 135.71 421.2 133.61 406.39 136.97 406.39 138.84" style="fill: #939699"/>
+                <polygon points="406.39 161.3 421.2 160.89 421.2 158.79 406.39 159.43 406.39 161.3" style="fill: #939699"/>
+              </g>
+            </g>
+            <polygon points="406.39 151.94 421.2 150.4 421.2 144.1 406.39 146.33 406.39 151.94" style="fill: #fff"/>
+          </g>
+          <g>
+            <polygon points="395.41 97 367.5 107.59 367.5 187.5 395.41 191 395.41 97" style="fill: #dee0e0"/>
+            <polygon points="392.1 157.19 372.35 158.5 372.35 149.66 392.1 147.32 392.1 157.19" style="fill: #fff"/>
+            <polygon points="392.1 110.19 372.35 116.4 372.35 114.56 392.1 108.14 392.1 110.19" style="fill: #939699"/>
+            <polygon points="392.1 125.86 372.35 130.43 372.35 128.59 392.1 123.8 392.1 125.86" style="fill: #939699"/>
+            <polygon points="392.1 165.02 372.35 165.51 372.35 163.67 392.1 162.96 392.1 165.02" style="fill: #939699"/>
+            <polygon points="392.1 172.85 372.35 172.53 372.35 170.69 392.1 170.8 392.1 172.85" style="fill: #939699"/>
+            <polygon points="392.1 180.69 372.35 179.54 372.35 177.7 392.1 178.63 392.1 180.69" style="fill: #939699"/>
+            <polygon points="377.1 120.22 372.35 121.57 372.35 123.41 377.1 122.12 377.1 120.22" style="fill: #939699"/>
+            <polygon points="386.51 117.55 386.51 119.55 392.1 118.02 392.1 115.97 386.51 117.55" style="fill: #939699"/>
+            <polygon id="nothing-2" data-name="nothing" points="384.45 123.08 379 124.48 379 116.82 384.45 115.19 384.45 123.08" style="fill: #b9bbbd"/>
+            <polygon class="an8light1" points="384.45 123.08 379 124.48 379 116.82 384.45 115.19 384.45 123.08" style="fill: #f80000"/>
+            <polygon points="392.1 141.52 372.35 144.46 372.35 135.59 392.1 131.62 392.1 141.52" style="fill: #fff"/>
+            <path d="M395.41,97,367.5,107.59V187.5l27.91,3.5,19.09-3.53V107.58Zm0,90.08-25-2.61v-74.6l25-9Z" style="fill: #b9bbbd"/>
+          </g>
+        </g>
+      </g>
+      <g id="an8lock">
+        <g>
+          <path id="an8logcktop" d="M118.85,133.83V119.12a11.83,11.83,0,1,1,23.66,0v24h9.75v-24a21.58,21.58,0,1,0-43.16,0v14.71Z" style="fill: #aac3cf"/>
+          <g>
+            <polygon points="130.68 189.24 162 176.06 162 133.56 99.36 133.56 99.36 176.06 130.68 189.24" style="fill: #8aadbf"/>
+            <polygon points="130.68 189.24 130.68 133.56 99.36 133.56 99.36 176.06 130.68 189.24" style="fill: #6d8c9e"/>
+          </g>
+          <path d="M137.64,153.05a7,7,0,1,0-10.44,6V167a3.48,3.48,0,1,0,7,0v-7.89A7,7,0,0,0,137.64,153.05Z" style="fill: #324b5c"/>
+          <line id="an8clickline3" x1="161.56" y1="85.45" x2="151.35" y2="95.66" style="fill: none;stroke: #f4f4f4;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+          <line id="an8clickline2" x1="130.68" y1="73.56" x2="130.68" y2="88.01" style="fill: none;stroke: #f4f4f4;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+          <line id="an8clickline1" x1="99.63" y1="85.35" x2="109.85" y2="95.56" style="fill: none;stroke: #f4f4f4;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+        </g>
+      </g>
+      <g id="an8phone">
+        <g>
+          <g>
+            <g>
+              <rect x="14.38" y="11" width="48.13" height="88" rx="3.67" style="fill: #4e5052"/>
+              <rect x="18.5" y="17.87" width="39.88" height="70.13" style="fill: #bde6ee"/>
+              <path d="M46,93.5a2.07,2.07,0,0,1-2.06,2.06h-11a2.06,2.06,0,0,1-2.06-2.06h0a2.06,2.06,0,0,1,2.06-2.06h11A2.07,2.07,0,0,1,46,93.5Z" style="fill: #939699"/>
+              <polygon points="58.38 17.88 18.5 17.88 18.5 70.13 58.38 30.25 58.38 17.88" style="fill: #d3eef4"/>
+              <path d="M46,14.44a.68.68,0,0,1-.69.68H31.56a.68.68,0,0,1-.68-.68h0a.69.69,0,0,1,.68-.69H45.31a.69.69,0,0,1,.69.69Z" style="fill: #939699"/>
+            </g>
+            <g>
+              <rect x="21.25" y="20.63" width="9.63" height="9.63" rx="1.38" style="fill: #6d8c9e"/>
+              <rect x="33.63" y="20.63" width="9.62" height="9.63" rx="1.37" style="fill: #6d8c9e"/>
+              <rect x="46" y="20.63" width="9.63" height="9.63" rx="1.38" style="fill: #6d8c9e"/>
+              <path d="M22.63,33H29.5a1.38,1.38,0,0,1,1.38,1.38v6.88a1.37,1.37,0,0,1-1.37,1.37H22.63a1.37,1.37,0,0,1-1.37-1.37V34.38A1.38,1.38,0,0,1,22.63,33Z" style="fill: #6d8c9e"/>
+              <rect x="33.63" y="33" width="9.62" height="9.63" rx="1.37" style="fill: #6d8c9e"/>
+              <path d="M47.38,33h6.88a1.38,1.38,0,0,1,1.38,1.38v6.88a1.37,1.37,0,0,1-1.37,1.37H47.38A1.37,1.37,0,0,1,46,41.25V34.38A1.38,1.38,0,0,1,47.38,33Z" style="fill: #6d8c9e"/>
+              <path d="M22.63,45.37H29.5a1.38,1.38,0,0,1,1.38,1.38v6.88A1.37,1.37,0,0,1,29.5,55H22.63a1.38,1.38,0,0,1-1.37-1.37V46.75A1.37,1.37,0,0,1,22.63,45.37Z" style="fill: #6d8c9e"/>
+              <path d="M35,45.37h6.87a1.37,1.37,0,0,1,1.37,1.37v6.88A1.37,1.37,0,0,1,41.88,55H35a1.38,1.38,0,0,1-1.37-1.37V46.75A1.37,1.37,0,0,1,35,45.37Z" style="fill: #6d8c9e"/>
+              <path d="M47.38,45.37h6.88a1.38,1.38,0,0,1,1.38,1.38v6.88A1.37,1.37,0,0,1,54.25,55H47.38A1.38,1.38,0,0,1,46,53.63V46.75A1.37,1.37,0,0,1,47.38,45.37Z" style="fill: #6d8c9e"/>
+              <rect x="21.25" y="57.75" width="9.63" height="9.63" rx="1.38" style="fill: #6d8c9e"/>
+              <rect x="33.63" y="57.75" width="9.62" height="9.63" rx="1.37" style="fill: #6d8c9e"/>
+            </g>
+          </g>
+          <g>
+            <path d="M22.63,45.37H29.5a1.38,1.38,0,0,1,1.38,1.38v6.88A1.37,1.37,0,0,1,29.5,55H22.63a1.38,1.38,0,0,1-1.37-1.37V46.75A1.37,1.37,0,0,1,22.63,45.37Z" style="fill: #8aadbf"/>
+            <rect x="21.25" y="20.63" width="9.63" height="9.63" rx="1.38" style="fill: #8aadbf"/>
+            <path d="M22.63,33H29.5a1.38,1.38,0,0,1,1.38,1.38v6.88a1.37,1.37,0,0,1-1.37,1.37H22.63a1.37,1.37,0,0,1-1.37-1.37V34.38A1.38,1.38,0,0,1,22.63,33Z" style="fill: #8aadbf"/>
+            <path d="M29.5,57.75H22.63a1.38,1.38,0,0,0-1.38,1.37V66a1.4,1.4,0,0,0,.4,1l8.82-8.82A1.36,1.36,0,0,0,29.5,57.75Z" style="fill: #8aadbf"/>
+            <rect x="33.63" y="33" width="9.62" height="9.63" rx="1.37" style="fill: #8aadbf"/>
+            <path d="M47.38,33A1.38,1.38,0,0,0,46,34.37v6.88a1.4,1.4,0,0,0,.4,1l8.82-8.82a1.36,1.36,0,0,0-1-.4Z" style="fill: #8aadbf"/>
+            <path d="M35,45.37a1.37,1.37,0,0,0-1.37,1.38v6.87a1.38,1.38,0,0,0,.4,1l8.82-8.82a1.39,1.39,0,0,0-1-.41Z" style="fill: #8aadbf"/>
+            <rect x="46" y="20.63" width="9.63" height="9.63" rx="1.38" style="fill: #8aadbf"/>
+            <rect x="33.63" y="20.63" width="9.62" height="9.63" rx="1.37" style="fill: #8aadbf"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <polyline points="37 110 37 156.5 82.5 156.5" style="fill: none;stroke: #ffd39e;stroke-linecap: round;stroke-linejoin: round;stroke-width: 7px"/>
+        <polyline points="392.5 88.5 392.5 43.5 347.5 43.5" style="fill: none;stroke: #ffd39e;stroke-linecap: round;stroke-linejoin: round;stroke-width: 7px"/>
+        <path d="M175.5,156.5H224V42h33.5" style="fill: none;stroke: #ffd39e;stroke-linecap: round;stroke-linejoin: round;stroke-width: 7px"/>
+      </g>
+      <g id="an8book">
+        <g>
+          <path d="M323.33,82H274V32.66h51.73V79.58A2.39,2.39,0,0,1,323.33,82Z" style="fill: #4f6c7d"/>
+          <g>
+            <polygon points="330.55 67.55 323.33 79.58 274 79.58 274 25.44 330.55 25.44 330.55 67.55" style="fill: #e9eaea"/>
+            <path d="M327.66,72.36H285.23a2.41,2.41,0,0,0-2.07,1.17l-.74,1.24h43.8Z" style="fill: #cbcece"/>
+          </g>
+          <path d="M329.34,70H281.22V11h48.12a2.41,2.41,0,0,1,2.41,2.41V67.55A2.4,2.4,0,0,1,329.34,70Z" style="fill: #324b5c"/>
+          <polygon points="281.22 69.95 274 81.98 274 23.03 281.22 11 281.22 69.95" style="fill: #283c4a"/>
+          <polygon points="295.74 84.39 301.67 87.9 301.67 72.36 289.64 72.36 289.64 88 295.74 84.39" style="fill: #f29111"/>
+          <g>
+            <g id="an8tick">
+              <circle cx="306.48" cy="40.48" r="16.24" style="fill: #f29111"/>
+              <path id="tick" d="M302.19,43.79l-3-3a1.22,1.22,0,0,1,0-1.73l.86-.87a1.22,1.22,0,0,1,1.73,0l3,3,6.91-6.92a1.22,1.22,0,0,1,1.73,0l.87.87a1.22,1.22,0,0,1,0,1.73l-6.92,6.91-2.59,2.59Z" style="fill: #fff"/>
+            </g>
+            <g id="an8house">
+              <circle cx="306.48" cy="40.48" r="16.24" style="fill: #f29111"/>
+              <path d="M298.06,38.67v7.22h2.41V38.67Zm-1.2,10.83h19.25V47.09H296.86Zm6-10.83v7.22h2.4V38.67Zm4.81,0v7.22h2.4V38.67Zm6-3.61-7.22-4.81-7.21,4.81h-2.41v2.41h19.25V35.06Zm-7.22,1.21a1.81,1.81,0,1,1,1.81-1.81A1.81,1.81,0,0,1,306.48,36.27Zm6,2.4v7.22h2.41V38.67Z" style="fill: #fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <polyline id="an8line1" points="37 110 37 156.5 82.5 156.5" style="fill: none;stroke: #f29111;stroke-linecap: round;stroke-linejoin: round;stroke-width: 7px"/>
+      <path id="an8line2" d="M175.5,156.5H224V42h33.5" style="fill: none;stroke: #f29111;stroke-linecap: round;stroke-linejoin: round;stroke-width: 7px"/>
+      <polyline id="an8line3" points="392.5 88.5 392.5 43.5 347.5 43.5" style="fill: none;stroke: #f29111;stroke-linecap: round;stroke-linejoin: round;stroke-width: 7px"/>
+    </g>
+</svg>
