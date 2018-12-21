@@ -209,6 +209,9 @@ br {
 
 .two {
   text-align: center; }
+  .two .flex-container {
+    display: block;
+    max-width: 300px; }
   .two h2 {
     margin-top: 2rem; }
   .two br {
@@ -360,7 +363,7 @@ br {
       border: 15px solid transparent;
       bottom: 75px;
       right: -30px;
-      left: initial;
+      left: auto;
       display: block;
       width: 0; }
     .column-with-icon:nth-child(3) {
@@ -370,14 +373,15 @@ br {
     display: none; }
 
   .hide-small {
-    display: initial; }
+    display: block; }
 
   .header {
     position: relative;
     background-repeat: no-repeat;
     background-position: center top; }
     .header .row {
-      position: initial; }
+      position: absolute;
+      top: 0; }
     .header .logo {
       margin-right: 2rem;
       position: absolute; }
@@ -389,11 +393,14 @@ br {
       font-size: 20px; }
 
   .one {
-    margin-top: -9rem;
+    margin-top: -5rem;
     background: transparent; }
     .one img {
       padding: 0; }
 
+  .two .flex-container {
+    display: flex;
+    max-width: 100%; }
   .two .column-8 {
     margin: auto; }
   .two h2 {
@@ -406,8 +413,6 @@ br {
   .two .column {
     width: 33.333%;
     padding: 1.5rem 1rem 4rem;
-    display: flex;
-    align-items: center;
     position: relative; }
   .two h4 {
     position: absolute;
@@ -485,5 +490,7 @@ br {
     .seven img {
       width: auto; } }
 /* Large Devices, Wide Screens */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ CSS styles */ }
 
 /*# sourceMappingURL=style.css.map */

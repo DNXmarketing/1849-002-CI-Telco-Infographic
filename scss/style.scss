@@ -262,6 +262,10 @@ br {
 }
 
 .two {
+	.flex-container {
+		display: block;
+		max-width:300px
+	}
 	text-align: center;
 	h2 {
 		margin-top: 2rem;
@@ -465,7 +469,7 @@ br {
 			border: 15px solid transparent;
 			bottom: 75px;
 			right: -30px;
-			left: initial;
+			left: auto;
 			display: block;
 			width: 0;
 		}
@@ -485,7 +489,7 @@ br {
 	}
 	
 	.hide-small {
-		display: initial;
+		display: block;
 	}
 	
 	.header {
@@ -493,7 +497,8 @@ br {
 		background-repeat: no-repeat;
 		background-position: center top;
 		.row {
-			position: initial;
+			position: absolute;
+			top:0;
 		}
 		.logo {
 			margin-right:2rem;
@@ -511,7 +516,7 @@ br {
 
 	
 	.one {
-		margin-top: -9rem;
+		margin-top: -5rem;
 		background: transparent;
 		img {
 			padding: 0;
@@ -519,6 +524,10 @@ br {
 	}
 	
 	.two {
+		.flex-container {
+			display: flex;
+			max-width:100%;
+		}
 		.column-8 {
 			margin: auto;
 		}
@@ -536,8 +545,6 @@ br {
 		.column {
 			width: 33.333%;
 			padding: 1.5rem 1rem 4rem;
-			display: flex;
-			align-items: center;
 			position: relative;
 		}
 
@@ -665,6 +672,10 @@ br {
 
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	/* IE10+ CSS styles */
+
+}
 
 
 
