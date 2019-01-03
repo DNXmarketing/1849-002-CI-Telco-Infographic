@@ -7,7 +7,7 @@
 **/
 
 $wine: #942645;
-$medium-grey: #DEE0E0;
+$medium-gray: #DEE0E0;
 $dark-gray: #4E5052;
 $deep-gray: #414748;
 $light-blue: #CAD9DE;
@@ -133,6 +133,10 @@ ul {
 	}
 }
 
+.upper {
+	text-transform: uppercase;
+}
+
 img {
 	max-width: 100%;
 }
@@ -162,13 +166,13 @@ br {
 	color: $dark-blue; 
 }
 .medium-gray { 
-	color: $medium-grey; 
+	color: $medium-gray; 
 }
 .dark-gray { 
 	color: $dark-gray; 
 }
 .light-blue { 
-	color: $medium-grey; 
+	color: $medium-gray; 
 }
 .deep-blue { 
 	color: $deep-blue; 
@@ -195,6 +199,9 @@ br {
 
 .row.no-padding-top, .no-padding-top {
 	padding-top: 0;
+}
+.row.no-padding-bottom, .no-padding-bottom {
+	padding-bottom: 0;
 }
 .row.no-padding, .no-padding {
 	padding: 0;
@@ -318,12 +325,12 @@ br {
 		font-weight: bold;
 	}
 	.column-with-icon {
-		background-color: $medium-grey;
+		background-color: $medium-gray;
 		&:last-child:before {
 			border: none;
 		}
 		&:before {
-			border-top-color: $medium-grey;
+			border-top-color: $medium-gray;
 		}
 	}	
 }
@@ -365,7 +372,7 @@ br {
 }
 
 .gray-bg  {
-	background: $medium-grey;
+	background: $medium-gray;
 }
 
 .blue-bg  {
@@ -375,6 +382,16 @@ br {
 .row.footer {
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
+}
+
+.row.footer a:link,
+.row.footer a:visited {
+	color: $dark-gray;
+}
+
+.row.footer a:active,
+.row.footer a:hover {
+	color: #111;
 }
 
 /**
@@ -392,13 +409,17 @@ br {
 	body {
 		font-size: 17px;
 	}
+	
+	ul, p {
+		font-size: 17px;
+	}
 
 	h1 {
 		font-size: 36px;
 	}
 	
 	section h1 {
-	 font-size: 22px;
+	 font-size: 29px;
 	}
 
 	h2 {
@@ -423,6 +444,10 @@ br {
 	
 	.row {
 		padding: 2rem 6rem;
+	}
+	
+	.row.less-padding-top, .less-padding-top {
+		padding-top: 1.4rem;
 	}
 	
 	.main-container {
@@ -459,15 +484,15 @@ br {
 	}
 	
 	.column-with-icon {
-		padding: 0.5rem 1.5rem 1.5rem;
+		padding: 0.5rem 1rem 1.5rem 1.5rem;
 		margin-right: 1.5rem;
 		position: relative;
-		height: 150px;
+		height: 300px;
 		&:before {
 			content: "";
 			position: absolute;
 			border: 15px solid transparent;
-			bottom: 75px;
+			bottom: 160px;
 			right: -30px;
 			left: auto;
 			display: block;
@@ -481,6 +506,9 @@ br {
 		}
 		&:nth-child(3) {
 			margin-right: 0;
+		}
+		p {
+			font-size: 16px;
 		}
 	}
 	
@@ -602,7 +630,7 @@ br {
 				border: none;
 			}
 			&:before {
-				border-left-color: $medium-grey;
+				border-left-color: $medium-gray;
 				border-top-color: transparent;
 			}
 		}
@@ -627,7 +655,6 @@ br {
 		}
 	}
 	.seven {
-		height: 242px;
 		.row {
 			justify-content: space-between;
 			align-items: middle;
@@ -653,6 +680,12 @@ br {
 		}
 		h2 {
 			font-size: 23px;
+		}
+	}
+	.column-with-icon {
+		height:165px;
+		&:before {
+			bottom: 75px;
 		}
 	}
 	
