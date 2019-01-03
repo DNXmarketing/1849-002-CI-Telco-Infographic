@@ -415,7 +415,7 @@ br {
 	}
 
 	h1 {
-		font-size: 36px;
+		font-size: 32px;
 	}
 	
 	section h1 {
@@ -451,8 +451,8 @@ br {
 	}
 	
 	.main-container {
-		/* max-width: 1600px; */
-		max-width: 1140px;
+		max-width: 1600px;
+		/* max-width: 1140px; */ 
 		margin:auto;
 	}
 	
@@ -534,11 +534,15 @@ br {
 		}
 		.container {
 			position: absolute;
-			top: 7rem;
+			top: 4rem;
 			left: 6rem;
 		}
 		h2 {
 			font-size: 20px;
+		}
+		
+		br {
+			display: none;
 		}
 	}
 
@@ -670,16 +674,14 @@ br {
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 991px) {
+
 	h1 {
 		font-size: 44px;
 	}
 	.header {
 		.container {
-			top: 10rem;
+			top: 6rem;
 			left: 9rem;
-		}
-		h2 {
-			font-size: 23px;
 		}
 	}
 	.column-with-icon {
@@ -696,6 +698,18 @@ br {
 		}
 		img {
 			width: auto;
+		}
+	}
+}
+
+@media only screen and (min-width : 1400px) {
+	.header {
+		.container {
+			top: 10rem;
+			left: 18rem;
+		}
+						br {
+			display: block;
 		}
 	}
 }

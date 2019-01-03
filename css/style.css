@@ -319,7 +319,7 @@ br {
     font-size: 17px; }
 
   h1 {
-    font-size: 36px; }
+    font-size: 32px; }
 
   section h1 {
     font-size: 29px; }
@@ -346,8 +346,8 @@ br {
     padding-top: 1.4rem; }
 
   .main-container {
-    /* max-width: 1600px; */
-    max-width: 1140px;
+    max-width: 1600px;
+    /* max-width: 1140px; */
     margin: auto; }
 
   .flex-container {
@@ -409,10 +409,12 @@ br {
       position: absolute; }
     .header .container {
       position: absolute;
-      top: 7rem;
+      top: 4rem;
       left: 6rem; }
     .header h2 {
       font-size: 20px; }
+    .header br {
+      display: none; }
 
   .one {
     margin-top: -5rem;
@@ -498,10 +500,8 @@ br {
     font-size: 44px; }
 
   .header .container {
-    top: 10rem;
+    top: 6rem;
     left: 9rem; }
-  .header h2 {
-    font-size: 23px; }
 
   .column-with-icon {
     height: 165px; }
@@ -514,6 +514,12 @@ br {
       margin-top: 2rem; }
     .seven img {
       width: auto; } }
+@media only screen and (min-width: 1400px) {
+  .header .container {
+    top: 10rem;
+    left: 18rem; }
+  .header br {
+    display: block; } }
 /* Large Devices, Wide Screens */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   /* IE10+ CSS styles */ }
