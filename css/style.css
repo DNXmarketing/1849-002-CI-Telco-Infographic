@@ -34,7 +34,7 @@ p {
 
 h1 {
   font-size: 30px;
-  margin: 5px 0;
+  margin: 5px 0 15px;
   color: #942645;
   line-height: 1.1; }
 
@@ -298,11 +298,12 @@ br {
 
 .row.footer a:link,
 .row.footer a:visited {
-  color: #4E5052; }
+  color: #003B4D;
+  text-decoration: underline; }
 
 .row.footer a:active,
 .row.footer a:hover {
-  color: #111; }
+  text-decoration: none; }
 
 /**
 *
@@ -417,7 +418,7 @@ br {
       display: none; }
 
   .one {
-    margin-top: -5rem;
+    margin-top: -3rem;
     background: transparent; }
     .one img {
       padding: 0; }
