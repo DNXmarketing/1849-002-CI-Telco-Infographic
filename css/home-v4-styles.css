@@ -120,7 +120,7 @@
 	}
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 768px) {
 	.ocom-base .u10w3 ul li {
 		-webkit-text-size-adjust: none
 	}
@@ -160,7 +160,7 @@
 	}
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 768px) {
 	.ocom-base .u10w1 h5 {
 		-webkit-text-size-adjust: none
 	}
@@ -229,7 +229,7 @@ ul.u10-links li a {
 	}
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 768px) {
 	.ocom-base ul.u10-links li a {
 		-webkit-text-size-adjust: none
 	}
@@ -6295,7 +6295,7 @@ body.lightbox-noscroll {
 	display: none
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 768px) {
 	.u10w1 ul.scl-icons {
 		height: auto;
 	}

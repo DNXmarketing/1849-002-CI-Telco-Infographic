@@ -36,7 +36,8 @@ h1 {
   font-size: 30px;
   margin: 5px 0 15px;
   color: #942645;
-  line-height: 1.1; }
+  line-height: 1.1;
+  font-weight: normal; }
 
 section h1 {
   font-size: 22px; }
@@ -44,7 +45,8 @@ section h1 {
 h2 {
   font-size: 22px;
   margin: 3px 0;
-  line-height: 25px; }
+  line-height: 25px;
+  font-weight: normal; }
 
 h2.sub-heading {
   font-size: 28px; }
@@ -54,6 +56,9 @@ h3 {
   margin: 3px 0;
   line-height: 1.1;
   font-weight: normal; }
+  h3.small {
+    font-size: 17px;
+    margin-bottom: -10px; }
 
 h4 {
   font-size: 20px;
@@ -65,6 +70,11 @@ h5 {
   margin: 10px 0;
   line-height: 1.1; }
 
+h6 {
+  font-weight: normal;
+  font-size: 14px;
+  margin: 1rem 0; }
+
 a:link, a:visited {
   color: #00758F;
   text-decoration: none; }
@@ -74,7 +84,7 @@ a:hover, a:active {
   text-decoration: none; }
 
 a.button, .button {
-  margin-top: .5rem;
+  margin-top: 1rem;
   font-size: 16px;
   color: #fff;
   background: url("../img/button.png") top left no-repeat;
@@ -94,15 +104,13 @@ ul {
     position: relative;
     margin-left: 30px;
     margin-bottom: 0.5rem; }
-/*
-  ul li:before {
+  ul.bull li:before {
     content: '•';
     font-size: 1.5em;
     line-height: .75;
     position: absolute;
     left: -30px;
     top: 0; }
-*/
 
 .upper {
   text-transform: uppercase; }
@@ -313,6 +321,29 @@ br {
 *
 **/
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 20px 0 !important; }
+
+  .u10-ologo {
+    width: 280px !important;
+    margin: 0 auto !important; }
+    .u10-ologo a {
+      background-position: 0px -18px !important; }
+
+  h3.small {
+    margin-bottom: 10px; }
+
+  ul.u10-links {
+    text-align: center; }
+    ul.u10-links li {
+      display: inline-block; } }
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 20px 0 !important; }
+
+  h3.small {
+    margin-bottom: 10px; } }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   body {
@@ -526,5 +557,3 @@ br {
 /* Large Devices, Wide Screens */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   /* IE10+ CSS styles */ }
-
-/*# sourceMappingURL=style.css.map */

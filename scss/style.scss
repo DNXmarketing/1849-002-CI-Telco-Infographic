@@ -53,6 +53,7 @@ h1 {
 	margin: 5px 0 15px;
 	color: $wine;
 	line-height: 1.1;
+	font-weight: normal;
 }
 
 section h1 {
@@ -63,6 +64,7 @@ h2 {
 	font-size: 22px;
 	margin: 3px 0;
 	line-height: 25px;
+	font-weight: normal;
 }
 
 h2.sub-heading {
@@ -74,6 +76,10 @@ h3 {
 	margin: 3px 0;
 	line-height: 1.1;
 	font-weight: normal;
+	&.small {
+		font-size: 17px;
+		margin-bottom: -10px;
+	}
 }
 
 h4 {
@@ -88,6 +94,12 @@ h5 {
 	line-height: 1.1;
 }
 
+h6 {
+	font-weight: normal;
+	font-size: 14px;
+	margin: 1rem 0;
+}
+
 a:link, a:visited {
 	color: $dark-blue;
 	text-decoration: none;
@@ -99,7 +111,7 @@ a:hover, a:active {
 }
 
 a.button, .button {
-	margin-top: .5rem;
+	margin-top: 1rem;
 	font-size: 16px;
 	color: #fff;
 	background: url("../img/button.png") top left no-repeat;
@@ -123,13 +135,15 @@ ul {
 		margin-left: 30px;
 		margin-bottom: 0.5rem;
 	}
-	li:before {
-//		content: '•';
-//		font-size:1.5em; 
-//		line-height:.75;
-//		position: absolute;
-//		left: -30px;
-//		top: 0;
+	&.bull {
+		li:before {
+			content: '•';
+			font-size:1.5em; 
+			line-height:.75;
+			position: absolute;
+			left: -30px;
+			top: 0;
+		}
 	}
 }
 
@@ -402,7 +416,35 @@ br {
 **/
 
 /* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
+@media only screen and (max-width : 480px) {
+	section {
+		padding: 20px 0 !important;
+	}
+	.u10-ologo {
+		width: 280px !important;
+		margin: 0 auto !important;
+		a {
+			background-position: 0px -18px !important;
+		}
+	}
+	h3.small {
+		margin-bottom: 10px;
+	}
+	ul.u10-links {
+		text-align: center;
+		li {
+			display: inline-block;
+		}
+	}
+}
+
+@media only screen and (max-width : 768px) {
+	section {
+		padding: 20px 0 !important;
+	}
+	h3.small {
+		margin-bottom: 10px;
+	}
 }
 
 /* Small Devices, Tablets */
