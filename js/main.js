@@ -2,7 +2,7 @@
 $("document").ready(function() {
 	startAd();
 	
-	$('a[href*="#"]').on('click', function (e) {
+	$('a[href*="#top"]').on('click', function (e) {
 		e.preventDefault();
 
 		$('html, body').animate({
