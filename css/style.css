@@ -57,7 +57,7 @@ h3 {
   line-height: 1.1;
   font-weight: normal; }
   h3.small {
-    font-size: 17px;
+    font-size: 22px;
     margin-bottom: -10px; }
 
 h4 {
@@ -248,7 +248,7 @@ br {
   margin: auto;
   display: block; }
 .four h2 {
-  font-size: 14px;
+  font-size: 15px;
   color: #942645;
   font-weight: bold; }
 .four .column-with-icon {
@@ -264,7 +264,7 @@ br {
   margin: auto;
   display: block; }
 .five h2 {
-  font-size: 14px;
+  font-size: 15px;
   color: #942645;
   font-weight: bold; }
 .five .column-with-icon {
@@ -280,7 +280,7 @@ br {
   margin: auto;
   display: block; }
 .six h2 {
-  font-size: 14px;
+  font-size: 15px;
   color: #942645;
   font-weight: bold; }
 .six .column-with-icon {
@@ -381,7 +381,7 @@ br {
     font-size: 17px; }
 
   h5 {
-    font-size: 15px; }
+    font-size: 17px; }
 
   br {
     display: block; }
@@ -551,7 +551,7 @@ br {
     left: 9rem; }
 
   .column-with-icon {
-    height: 165px; }
+    height: 190px; }
     .column-with-icon:before {
       bottom: 75px; }
 
